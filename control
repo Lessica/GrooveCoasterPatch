@@ -1,0 +1,9 @@
+Package: naville.groovecoaster
+Name: GrooveCoaster
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Description: A Private Stuff Released As A Gift For Cheryl!
+Maintainer: Naville
+Author: Naville
+Section: System
+Tag: role::hacker
