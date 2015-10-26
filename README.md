@@ -4,7 +4,6 @@
 ##We Don't Have Enough People Dealing With Its Mod At The Moment.Have Fun.
 ###Contains Private Server.
 Every Game Resource File Has Password: eiprblFFv69R83J5
-(Privately Shared With JQ9837 Previously And Now He is Showing Off All Over The World Like He Found That LOL.)
 
 
 A Private Stuff Released As A Gift For Cheryl.
