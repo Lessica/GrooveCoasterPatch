@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" href="common.css" type="text/css">
+		<script type="text/javascript">
+			if (navigator.userAgent.indexOf('iPad') != -1) {
+				document.write('<link rel="stylesheet" type="text/css" href="ipad.css">');
+			}
+			else {
+				document.write('<link rel="stylesheet" type="text/css" href="iphone.css">');
+			}
+			document.ontouchmove = function( event ){ event.preventDefault(); }
+		</script>
+        <style type="text/css">
+<!--
+#header
+{
+	text-align:center;
+	background-color:#000000;
+	border-bottom:1px solid #FFFFFF;
+	top:0px;
+	width:100%;
+}
+#footer{
+	text-align:center;
+	background-color:#000000;
+	border-top:1px solid #FFFFFF;
+	bottom:0px;
+	width:100%;
+    position:fixed;
+}
+-->
+		</style>
+		<script src="jquery.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+		<div id="footer" style="text-align:center">
+            <img class="pageimage" src="GPafterNOTICE02it.png">
+			<div class="imgbutton">
+				<form>
+					<input type="button" onclick="window.location='ShopMusic'" style="background:url(SHOPbutton.gif);width:224px;height:46px;border:0px;border-radius:0;">
+				</form>
+			</div>
+		</div>
+
+	</body>
+
+</html>

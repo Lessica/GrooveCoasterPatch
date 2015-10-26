@@ -1,0 +1,136 @@
+@charset "utf-8";
+html{
+}
+body{
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 200%;
+	font-family: ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3";
+}
+hr{
+	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+	-webkit-tap-highlight-color: #FFFFFF;
+}
+input{
+	margin: 0px;
+	font-size: 100%;
+}
+
+.imgbutton{
+	margin: 0px;
+	padding: 15px;
+    text-align: center;
+}
+.box{
+	border: 2px solid #FFFFFF;
+	margin: 10px 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+/* タブ */
+div.tabbox{
+	background-color: #000000;
+	display:inline-block;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+ul.tabbox{
+	margin: 5px;
+	padding: 0px;
+	list-style: none;
+}
+li.current{
+	margin: 0px 0px 0px 0px;
+	padding: 10px;
+	float:left;
+	display:inline;
+	text-align:center;
+	//width: 152px;
+	width: 180px;
+	background-color: #000000;
+	border-top: 2px solid #FFFFFF;
+	border-right: 2px solid #FFFFFF;
+	border-left: 2px solid #FFFFFF;
+}
+li.other{
+	margin: 0px 0px 0px 0px;
+	padding: 10px;
+	float:left;
+	display:inline;
+	text-align:center;
+	//width: 152px;
+	width: 180px;
+	background-color: #222222;
+	border-top: 2px solid #444444;
+	border-right: 2px solid #444444;
+	border-left: 2px solid #444444;
+	border-bottom: 2px solid #FFFFFF;
+}
+span.current{
+	color:#FFFFFF;
+}
+span.other{
+	color:#CCCCCC;
+}
+
+/* リスト */
+ul.listbox{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+li.listbox{
+}
+
+/* 画像 */
+.artwork{
+	background-image: url(/img/etc/artwork.png);
+	overflow: hidden;
+	width:64px;
+	height:64px
+}
+.avatar{
+	background-image: url(/img/etc/player_big.png);
+	overflow: hidden;
+	width:96px;
+	height:96px
+}
+.difficulty{
+	background-image: url(/img/etc/RANKtab_all.gif);
+	overflow: hidden;
+	width:90px;
+	height:22px
+}
+
+/* ローディング */
+#loader{
+	margin:0px;
+	width: 60px; /*ローディングアイコンの横サイズ*/
+	height: 60px; /*ローディングアイコンの縦サイズ*/
+	background-color:#000000;
+	border-radius: 60px;  /*CSS3で円を書く*/
+	border: 8px solid #FFFFFF;  /*円に枠をつける*/
+	border-right-color: transparent; /*円の右にC状の空きをつける*/
+	
+	-webkit-animation: spin 1s infinite linear; /*回転のアニメーションをつける*/
+	-moz-animation: spin 1s infinite linear;
+}
+@-webkit-keyframes spin{
+	0% { -webkit-transform: rotate(0deg); opacity: 0.4; }
+	50%  { -webkit-transform: rotate(180deg); opacity: 1; }
+	100%   { -webkit-transform: rotate(360deg); opacity: 0.4; }
+}
+@-moz-keyframes spin{
+	0% { -moz-transform: rotate(0deg); opacity: 0.4; }
+	50%  { -moz-transform: rotate(180deg); opacity: 1; }
+	100%   { -moz-transform: rotate(360deg); opacity: 0.4; }
+}
