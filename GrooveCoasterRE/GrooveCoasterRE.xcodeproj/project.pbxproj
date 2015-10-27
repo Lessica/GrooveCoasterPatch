@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2079891B998F8900228665 /* tuneAppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2079871B998F8900228665 /* tuneAppDelegate.cpp */; };
+		FA20798C1B9991EE00228665 /* TuneAppMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA20798A1B9991EE00228665 /* TuneAppMain.cpp */; };
+		FA20798F1B99951000228665 /* mtxc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA20798D1B99951000228665 /* mtxc.cpp */; };
+		FA829C071B991327005434F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA829C061B991327005434F6 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA829C011B991327005434F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA2079871B998F8900228665 /* tuneAppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tuneAppDelegate.cpp; path = GrooveCoasterRE/tuneAppDelegate.cpp; sourceTree = "<group>"; };
+		FA2079881B998F8900228665 /* tuneAppDelegate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = tuneAppDelegate.hpp; path = GrooveCoasterRE/tuneAppDelegate.hpp; sourceTree = "<group>"; };
+		FA20798A1B9991EE00228665 /* TuneAppMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TuneAppMain.cpp; path = GrooveCoasterRE/TuneAppMain.cpp; sourceTree = "<group>"; };
+		FA20798B1B9991EE00228665 /* TuneAppMain.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TuneAppMain.hpp; path = GrooveCoasterRE/TuneAppMain.hpp; sourceTree = "<group>"; };
+		FA20798D1B99951000228665 /* mtxc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mtxc.cpp; path = GrooveCoasterRE/mtxc.cpp; sourceTree = "<group>"; };
+		FA20798E1B99951000228665 /* mtxc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mtxc.hpp; path = GrooveCoasterRE/mtxc.hpp; sourceTree = "<group>"; };
+		FA829C031B991327005434F6 /* GrooveCoasterRE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GrooveCoasterRE; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA829C061B991327005434F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA829C0D1B991395005434F6 /* Misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Misc.cpp; path = GrooveCoasterRE/Misc.cpp; sourceTree = "<group>"; };
+		FA829C0E1B991395005434F6 /* Misc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Misc.hpp; path = GrooveCoasterRE/Misc.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA829C001B991327005434F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA829BFA1B991327005434F6 = {
+			isa = PBXGroup;
+			children = (
+				FA829C0D1B991395005434F6 /* Misc.cpp */,
+				FA829C0E1B991395005434F6 /* Misc.hpp */,
+				FA20798D1B99951000228665 /* mtxc.cpp */,
+				FA20798E1B99951000228665 /* mtxc.hpp */,
+				FA20798A1B9991EE00228665 /* TuneAppMain.cpp */,
+				FA20798B1B9991EE00228665 /* TuneAppMain.hpp */,
+				FA2079871B998F8900228665 /* tuneAppDelegate.cpp */,
+				FA2079881B998F8900228665 /* tuneAppDelegate.hpp */,
+				FA829C051B991327005434F6 /* GrooveCoasterRE */,
+				FA829C041B991327005434F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA829C041B991327005434F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA829C031B991327005434F6 /* GrooveCoasterRE */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA829C051B991327005434F6 /* GrooveCoasterRE */ = {
+			isa = PBXGroup;
+			children = (
+				FA829C061B991327005434F6 /* main.m */,
+			);
+			path = GrooveCoasterRE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA829C021B991327005434F6 /* GrooveCoasterRE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA829C0A1B991327005434F6 /* Build configuration list for PBXNativeTarget "GrooveCoasterRE" */;
+			buildPhases = (
+				FA829BFF1B991327005434F6 /* Sources */,
+				FA829C001B991327005434F6 /* Frameworks */,
+				FA829C011B991327005434F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrooveCoasterRE;
+			productName = GrooveCoasterRE;
+			productReference = FA829C031B991327005434F6 /* GrooveCoasterRE */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA829BFB1B991327005434F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Naville;
+				TargetAttributes = {
+					FA829C021B991327005434F6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = FA829BFE1B991327005434F6 /* Build configuration list for PBXProject "GrooveCoasterRE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA829BFA1B991327005434F6;
+			productRefGroup = FA829C041B991327005434F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA829C021B991327005434F6 /* GrooveCoasterRE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA829BFF1B991327005434F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA20798C1B9991EE00228665 /* TuneAppMain.cpp in Sources */,
+				FA20798F1B99951000228665 /* mtxc.cpp in Sources */,
+				FA2079891B998F8900228665 /* tuneAppDelegate.cpp in Sources */,
+				FA829C071B991327005434F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA829C081B991327005434F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA829C091B991327005434F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA829C0B1B991327005434F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA829C0C1B991327005434F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA829BFE1B991327005434F6 /* Build configuration list for PBXProject "GrooveCoasterRE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA829C081B991327005434F6 /* Debug */,
+				FA829C091B991327005434F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA829C0A1B991327005434F6 /* Build configuration list for PBXNativeTarget "GrooveCoasterRE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA829C0B1B991327005434F6 /* Debug */,
+				FA829C0C1B991327005434F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA829BFB1B991327005434F6 /* Project object */;
+}
